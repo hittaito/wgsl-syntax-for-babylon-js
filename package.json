@@ -24,5 +24,6 @@
   },
   "repository": {
     "url": "https://github.com/hittaito/wgsl-syntax-for-babylon-js"
-  }
+  },
+  "publisher": "hittaito"
 }
