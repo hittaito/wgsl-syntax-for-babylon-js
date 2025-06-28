@@ -1,0 +1,28 @@
+{
+  "name": "wgsl-syntax-for-babylon-js",
+  "displayName": "WGSL Syntax for Babylon.js",
+  "description": "Provides WGSL syntax for Babylon.js project",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "wgsl",
+      "aliases": ["wgsl", "wgsl"],
+      "extensions": [".wgsl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "wgsl",
+      "scopeName": "main.wgsl",
+      "path": "./syntaxes/wgsl.tmLanguage.json"
+    }]
+  },
+  "repository": {
+    "url": "https://github.com/hittaito/wgsl-syntax-for-babylon-js"
+  }
+}
